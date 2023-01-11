@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(84, 29, 136);
+}
+
+.drage-area{
+    border: 2px dashed #fff;
+    height: 500px;
+    width: 700px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.drage-area.active{
+    border: 2px solid #fff;
+}
+
+.drage-area .icon{
+    font-size: 100px;
+    color: #fff;
+}
+
+.drage-area header{
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.drage-area span{
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    margin: 10px 0 15px 0;
+}
+
+.drage-area button{
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background: #fff;
+    color: rgb(84, 29, 136);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.drage-area img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
